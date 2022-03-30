@@ -11587,9 +11587,9 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr.js */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "name": "minimal-blog - @lekoarts/gatsby-theme-minimal-blog",
-    "short_name": "minimal-blog",
-    "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.",
+    "name": "Packet Deli Blog v1",
+    "short_name": "packetdeli-blog",
+    "description": "First version of the blog to track my retooling and other technical pursuits.",
     "start_url": "/",
     "background_color": "#fff",
     "display": "standalone",
@@ -11618,7 +11618,7 @@ var plugins = [{
     "feeds": [{
       "query": "\n              {\n                allPost(sort: { fields: date, order: DESC }) {\n                  nodes {\n                    title\n                    date(formatString: \"MMMM D, YYYY\")\n                    excerpt\n                    slug\n                  }\n                }\n              }\n            ",
       "output": "rss.xml",
-      "title": "Minimal Blog - @lekoarts/gatsby-theme-minimal-blog"
+      "title": "Packet Deli Blog"
     }]
   }
 }, {
@@ -59965,7 +59965,7 @@ module.exports = JSON.parse('{"data":{"themeUiConfig":{"preset":{},"prismPreset"
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"minimalBlogConfig":{"basePath":"/","blogPath":"/blog","postsPath":"content/posts","pagesPath":"content/pages","tagsPath":"/tags","externalLinks":[{"name":"Twitter","url":"https://twitter.com/lekoarts_de"},{"name":"Homepage","url":"https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter"}],"navigation":[{"title":"Blog","slug":"/blog"},{"title":"About","slug":"/about"}],"showLineNumbers":true,"showCopyButton":true}}}');
+module.exports = JSON.parse('{"data":{"minimalBlogConfig":{"basePath":"/","blogPath":"/blog","postsPath":"content/posts","pagesPath":"content/pages","tagsPath":"/tags","externalLinks":[{"name":"Twitter","url":"https://twitter.com/richpalladi1"},{"name":"Homepage","url":"https://www.packetdeli.com"}],"navigation":[{"title":"Blog","slug":"/blog"},{"title":"About","slug":"/about"}],"showLineNumbers":true,"showCopyButton":true}}}');
 
 /***/ })
 
